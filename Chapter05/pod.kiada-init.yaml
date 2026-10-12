@@ -10,13 +10,13 @@ spec:
     image: luksa/network-connectivity-checker:0.1
   containers:
   - name: kiada
-    image: luksa/kiada:0.2
+    image: ivanychev/kiada:0.2
     stdin: true
     ports:
     - name: http
       containerPort: 8080
   - name: envoy
-    image: luksa/kiada-ssl-proxy:0.1
+    image: ivanychev/kiada-ssl-proxy:0.1
     ports:
     - name: https
       containerPort: 8443

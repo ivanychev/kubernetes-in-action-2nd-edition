@@ -13,12 +13,12 @@ spec:
     - nonexistent.host.nowhere
   containers:
   - name: kiada
-    image: luksa/kiada:0.1
+    image: ivanychev/kiada:0.1
     ports:
     - name: http
       containerPort: 8080
   - name: envoy
-    image: luksa/kiada-ssl-proxy:0.1
+    image: ivanychev/kiada-ssl-proxy:0.1
     ports:
     - name: https
       containerPort: 8443

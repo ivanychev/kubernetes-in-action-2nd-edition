@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
   - name: kiada
-    image: luksa/kiada:0.4
+    image: ivanychev/kiada:0.4
     args: ["--listen-port", "9090"]
 #   Alternative notation:
 #     args:
@@ -14,5 +14,3 @@ spec:
     ports:
     - name: http
       containerPort: 9090
-
-
