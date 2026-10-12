@@ -5,12 +5,12 @@ metadata:
 spec:
   initContainers:
   - name: init-demo
-    image: luksa/init-demo:0.1
+    image: ivanychev/init-demo:0.1
   - name: traffic-meter
-    image: luksa/network-traffic-meter:0.1
+    image: ivanychev/network-traffic-meter:0.1
     restartPolicy: Always
   - name: network-check
-    image: luksa/network-connectivity-checker:0.1
+    image: ivanychev/network-connectivity-checker:0.1
   containers:
   - name: kiada
     image: ivanychev/kiada:0.2
