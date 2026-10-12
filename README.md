@@ -1,5 +1,7 @@
 # Kubernetes in Action, 2nd Edition
 
+This fork builds the book's example images for both `linux/arm64` and `linux/amd64`. It updates the Kubernetes manifests to use these images so readers with Apple Silicon Macs and other Arm machines can follow the examples.
+
 This repository contains all the code (and some additional files) from the [Kubernetes in Action, 2nd Edition](http://kubernetes-in-action.com/second-edition) book.
 
 ## Purchasing the book
